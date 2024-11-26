@@ -1,0 +1,62 @@
+/* Estilos para el Footer */
+.footer-container {
+    background-color: #2c3e50; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 3px solid #3498db; /* Borde superior azul */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-names {
+    margin-bottom: 15px; /* Espacio entre los nombres y los iconos */
+  }
+  
+  .footer-name {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-weight: 600;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-icon img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-icon img:hover {
+    transform: scale(1.1); /* Efecto de hover para los iconos */
+  }
+  
+  /* En pantallas pequeñas */
+  @media (max-width: 768px) {
+    .footer-names {
+      margin-bottom: 10px;
+    }
+  
+    .footer-name {
+      font-size: 0.9rem;
+    }
+  
+    .footer-icons {
+      gap: 10px;
+    }
+  
+    .footer-icon img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  

@@ -1,0 +1,114 @@
+/* Acerca de Container */
+.acercade-container {
+    background-color: transparent; /* Fondo transparente para que resalte el borde */
+    padding: 30px 20px; /* Menos padding para hacerlo más compacto */
+    border: 2px solid #3498db; /* Borde azul que resalta */
+    border-radius: 10px; /* Bordes redondeados más sutiles */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para darle un toque moderno */
+    margin-top: 30px; /* Reducido el margen superior */
+    color: #333; /* Texto oscuro para el contraste */
+  }
+  
+  /* Título de la sección */
+  .acercade-title {
+    font-size: 2rem; /* Tamaño de fuente más pequeño */
+    font-weight: 700;
+    margin-bottom: 15px; /* Menos espacio entre el título y el texto */
+    text-transform: uppercase; /* Todo en mayúsculas */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    color: #006400; /* Color verde más oscuro */
+  }
+  
+  /* Estilo del texto */
+  .acercade-text {
+    font-size: 1rem; /* Fuente más pequeña */
+    line-height: 1.6; /* Espaciado más compacto */
+    margin-bottom: 20px; /* Espacio más pequeño entre el texto y la imagen */
+    text-align: justify; /* Alineación del texto */
+    color: #555; /* Color gris más suave */
+    font-style: italic; /* Cursiva para estilo */
+  }
+  
+  /* Cita inspiradora */
+  .acercade-quote {
+    font-size: 1.1rem; /* Texto más pequeño */
+    color: #2c3e50; /* Gris oscuro */
+    font-style: italic;
+    border-left: 5px solid #3498db; /* Línea azul */
+    padding-left: 20px;
+    margin-bottom: 20px; /* Menos espacio */
+    background-color: rgba(0, 0, 0, 0.05); /* Fondo sutil */
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  /* Lista de ideas */
+  .acercade-ideas {
+    margin-top: 15px;
+  }
+  
+  .acercade-ideas h3 {
+    color: #3498db; /* Color azul para las ideas */
+    font-size: 1.4rem; /* Tamaño de fuente ajustado */
+    font-weight: 600;
+  }
+  
+  .acercade-ideas ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .acercade-ideas li {
+    margin-bottom: 10px; /* Menos espacio entre los elementos */
+    font-size: 1rem; /* Fuente más pequeña */
+    color: #555;
+  }
+  
+  .acercade-ideas li::before {
+    content: "• ";
+    color: #3498db; /* Color azul para los puntos */
+  }
+  
+  /* Estilo para la imagen */
+  .acercade-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes más sutiles */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra ligera para la imagen */
+    transition: transform 0.4s ease; /* Transición suave para el hover */
+    object-fit: cover;
+  }
+  
+  .acercade-img:hover {
+    transform: scale(1.05); /* Aumento de tamaño al hacer hover */
+  }
+  
+  /* Contenedor de la fila */
+  .acercade-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* En pantallas pequeñas, el texto y la imagen deben apilarse */
+  @media (max-width: 768px) {
+    .acercade-row {
+      flex-direction: column;
+      text-align: center; /* Centra el contenido */
+    }
+  
+    .acercade-title {
+      text-align: center;
+    }
+  
+    .acercade-text {
+      text-align: center;
+    }
+  
+    .acercade-img {
+      width: 50%;
+      height: auto;
+      object-fit: contain;
+    }
+  } 

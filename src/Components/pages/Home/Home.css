@@ -1,0 +1,20 @@
+
+.menu {
+  background-color: #006400; /* Color de fondo de la barra */
+}
+
+.carousel-container {
+  width: 80%; /* Reduce el ancho al 80% de la pantalla */
+  height: 60vh; /* Mantiene una altura ajustada al 60% de la ventana */
+  margin: 80px auto 0; /* Centra el carrusel horizontalmente y añade espacio superior */
+  overflow: hidden; /* Evita el desbordamiento */
+  border-radius: 20px; /* Añade esquinas redondeadas al carrusel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade un efecto de sombra */
+}
+
+.carousel-container img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 100%; /* Asegura que la imagen ocupe toda la altura del contenedor */
+  object-fit: cover; /* Ajusta la imagen para que no se deforme */
+}
+

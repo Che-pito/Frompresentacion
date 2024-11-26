@@ -1,0 +1,45 @@
+.menu {
+    background-color: #2c3e50; /* Gris oscuro para la barra de navegación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+    padding: 10px 20px; /* Espaciado interno */
+    border-bottom: 3px solid #88DC65; /* Línea decorativa morada en la parte inferior */
+  }
+  
+  .navbar-brand {
+    color: #ecf0f1 !important; /* Blanco claro para el logo */
+    font-size: 1.6rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Negrita para mayor impacto */
+    transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+  }
+  
+  .navbar-brand:hover {
+    color: #FF8000 !important; /* Cambia a verde cuando pasa el mouse */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ecf0f1 !important; /* Blanco claro para los enlaces */
+    font-size: 1.2rem; /* Tamaño de fuente mayor */
+    font-weight: 500; /* Negrita intermedia */
+    margin: 0 10px; /* Espaciado horizontal entre los enlaces */
+    transition: color 0.3s ease, transform 0.3s ease; /* Animación suave */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #a4bc37 !important; /* Cambia a verde brillante al pasar el mouse */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    text-decoration: underline; /* Subraya al pasar el mouse */
+  }
+  
+  .navbar-toggler {
+    border-color: #ecf0f1; /* Borde claro para el botón de colapso */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ecf0f1; /* Color del ícono de colapso */
+  }
+  
+  .nav-item.active .nav-link {
+    color: #a4bc37 !important; /* Resalta la sección activa con verde */
+    font-weight: bold; /* Hace que el enlace activo sea más destacado */
+  }
+  
